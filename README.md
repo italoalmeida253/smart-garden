@@ -12,6 +12,8 @@ Você pode acompanhar os seguintes passos para configurar um ambiente próprio p
 
 ### Requisitos
 - Possuir um microcontrolador (Arduino, por exemplo);
+- Válvula solenóide (220v);
+- Módulo relé (5v);
 - Possuir o Arduino IDE (https://www.arduino.cc/en/software) instalado no seu computador para o upload do código na placa;
 - Possui a última versão da biblioteca Time (https://github.com/PaulStoffregen/Time) baixada no seu computador.
 - Possuir o código .ino do Smart Garden para o upload no seu microcontrolador. Você pode consegui-lo baixando diretamente do repositório ou, em um terminal do seu sistema, rode: ```git clone https://github.com/italoalmeida253/smart-garden``` (caso tenha o git instalado).
