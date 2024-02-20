@@ -45,14 +45,6 @@ Variável no código:
 int pinoRele = 13; // Por padrão, está definido para a porta 13.
 ```
 
-#### Pino válvula solenóide
-Determina a porta em que a válvula está conectada no microcontrolador.
-**A porta precisa ser do tipo digital. Certifique de verificar o pinout da sua placa antes de trocar de porta.**
-Variável no código:
-```c++
-int pinoValvula = 12; // Por padrão, está definido para a porta 12.
-```
-
 ### Instalando
 Com o código .ino e seu microcontrolador conectado ao seu computador, siga os seguintes passos instalar o código do Smart Garden:
 
