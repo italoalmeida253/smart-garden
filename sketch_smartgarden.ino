@@ -1,9 +1,8 @@
 #include <TimeLib.h>
 
 int pinoRele = 13;
-int pinoValvula = 12;
 int intervaloEntreCiclos = 6;
-int tempoDeIrrigação = 15;
+int tempoDeIrrigacao = 15;
 int ciclos = 0;
 
 void setup() {
@@ -20,7 +19,7 @@ void loop() {
 
   if (hour() == (intervaloEntreCiclos * ciclos)) {
     digitalWrite(pinoRele, HIGH);
-    delay(tempoDeIrrigação * 1000);
+    delay(tempoDeIrrigacao * 1000);
     digitalWrite(pinoRele, LOW);
     ciclos += 1;
   }
