@@ -3,7 +3,7 @@
     <img width="200" src="https://raw.githubusercontent.com/italoalmeida253/smart-garden/444e2336163b2c50cd3f8ade50eaff07f97f373c/smart-garden-logo.svg" alt="Logo do Smart Garden"/>
 </p>
 
-<p align="center">_Smart Garden é um projeto acadêmico que visa buscar a economia de água e facilidade na irrigação de jardins pessoais ou terrenos agrículos._</p>
+<p align="center"><em>Smart Garden é um projeto acadêmico que visa buscar a economia de água e facilidade na irrigação de jardins pessoais ou terrenos agrículos.</em></p>
 
 ## Documentação
 Para instalar o Smart Garden, você precisa configurar um ambiente de desenvolvimento antes de começar a usar.
@@ -32,7 +32,7 @@ Determina o intervalo entre uma irrigagem e outra em horas.
 Variável no código:
 ```c++
 int intervaloEntreCiclos = 6; // Em horas; 
-                           // Por padrão, está definido para 6 horas.
+                              // Por padrão, está definido para 6 horas.
 ```
 
 #### Pino relé
